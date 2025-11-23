@@ -10,52 +10,66 @@
     <h1>Módulo 1 - Primeiros Passos com HTML</h1>
     <hr />
 
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    <h2 id="indice">Índice</h2>
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#links">Links de referências</a></li>
     </ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="historia">História dos computadores</h2>
+    <small><a href="#indice">[Voltar]</a></small>
+    <p>Os computadores começaram como máquinas mecânicas criadas para facilitar cálculos, evoluindo para enormes equipamentos eletrônicos como o <strong>ENIAC</strong>. 
+        A chegada dos transistores deixou tudo mais rápido e compacto, abrindo caminho para avanços ainda maiores. 
+        Logo depois, os circuitos integrados permitiram o surgimento dos primeiros computadores pessoais.</p>
+    <p>Com o tempo, essa tecnologia ficou cada vez mais acessível, transformando o jeito como trabalhamos, estudamos e nos comunicamos. 
+        Hoje, os computadores estão em celulares, carros, TVs e praticamente tudo ao nosso redor. 
+        O que antes ocupava uma <i>sala inteira</i> agora cabe no bolso e move o mundo moderno.</p>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
+    <small><a href="#indice">[Voltar]</a></small>
+    <p>Clients são dispositivos ou programas que pedem algo a um servidor, como quando você entra em um site ou usa um aplicativo. 
+        Eles enviam solicitações e recebem respostas, funcionando como o “<i>lado do usuário</i>” na comunicação. 
+        Pode ser um computador, celular, navegador ou até um app simples.</p>
+    <p>No dia a dia, tudo que você usa para acessar serviços online é um <strong><i>client</i></strong>. 
+        Quando você abre o <a href="https://web.whatsapp.com/" target="_blank">WhatsApp</a>, ele é o <strong><i>client</i></strong> falando com o <strong><i>servidor</i></strong> do WhatsApp. 
+        É basicamente aquilo que você usa para consumir informações, enquanto o servidor é quem entrega o conteúdo.</p>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+    <small><a href="#indice">[Voltar]</a></small>
+    <p>Servers são computadores ou sistemas que ficam responsáveis por guardar dados e responder às solicitações dos usuários. 
+        Quando alguém acessa um <u>site</u>, assiste a um vídeo ou faz login em um app, é o servidor que envia as informações. 
+        Ele trabalha nos bastidores, geralmente 24h por dia, para manter tudo funcionando.</p>
+    <p>No dia a dia, quase tudo o que você usa online depende de um servidor — desde redes sociais até bancos digitais. 
+        Eles armazenam arquivos, processam dados e garantem que todos recebam o conteúdo certo no momento certo. 
+        Em resumo, o server é quem “entrega” enquanto o client é quem “pede”.</p>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="estrutura">Como é uma estrutura básica de um HTML?</h2>
+    <small><a href="#indice">[Voltar]</a></small>
+    <p>Uma estrutura básica de HTML começa com o <strong><i>"&lt;!DOCTYPE html>"</i></strong>, que informa ao navegador que o documento segue o padrão HTML5. 
+        Depois vem a tag <strong><i>"&lt;html>"</i></strong>, que envolve todo o conteúdo da página. 
+        Dentro dela, o <strong><i>"&lt;head>"</i></strong> guarda informações como título, codificação e links de estilo.</p>
+    <p>Já o <strong><i>"&lt;body>"</i></strong> é onde ficam os elementos que realmente aparecem para o usuário, como textos, imagens e botões. 
+        Ele é o <i>coração</i> visual da página, reunindo tudo que será exibido na tela. 
+        Juntas, essas partes formam o esqueleto essencial de qualquer site.</p>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <small><a href="#indice">[Voltar]</a></small>
+    <p>Listas <u>ordenadas</u> e <u>não ordenadas</u> são usadas no HTML para organizar informações, mas cada uma tem um propósito diferente.</p>
+    <p>As listas ordenadas (<strong><i>"&lt;ol>"</i></strong>) são usadas quando a ordem dos itens importa — como passos de um tutorial ou um ranking numerado. 
+        Elas exibem os itens com números, letras ou algarismos romanos automaticamente.</p>
+    <p>Já as listas não ordenadas (<strong><i>"&lt;ul>"</i></strong>) servem para quando a ordem não faz diferença, como listas de características ou tópicos gerais. 
+        Elas mostram os itens com marcadores (bolinhas, quadrados etc.). 
+        Em resumo: <strong>ordenada = ordem importa, não ordenada = apenas organizar itens sem sequência</strong>.</p>
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+    <h2 id="links">Links de referências</h2>
+    <small><a href="#indice">[Voltar]</a></small>
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+        <li><a href="http://dio.me">DIO</a></li>
+        <li><a href="http://w3c.org">w3schools</a></li>
     </ul>
 
 </body>
